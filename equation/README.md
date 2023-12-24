@@ -9,8 +9,6 @@ Example|R|G|B|Alpha|sample
 Selecting something on Windows Desktop|0|102|204|70|?
 
 # Equation
-Let's now derive the equation.
-
 These are the **inputs**:
 * $B$ = background i.e. **original** component
 * $R$ = **resulting** component
@@ -19,26 +17,40 @@ These are the **outputs**:
 * $a$ = alpha of the overlay
 * $h$ = component of the overlay
 
+Let's now derive the equation.
+
 We start with the equation for mixing of two colors with Alpha:
-$$(1-a)B + ah = R$$
+
+$$ (1-a)B + ah = R $$
 
 We need to get an equation for $a$ and $h$.
-$$\begin{align*}
-(1-a)B + ah &= R \\
-B - Ba + ah &= R \\
-- Ba + ah &= R - B \\
-a(h - B) &= R - B \\
-a &= \dfrac{R - B}{h - B} \\
 
-a &= (R1 - B1)/(h - B1) \\
-a &= (R2 - B2)/(h - B2) \\
+$$
+\begin{align*}
+(1-a)B + ah  &=  R \\
+B - Ba + ah  &=  R \\
+-Ba + ah     &=  R - B \\
+a(h - B)     &=  R - B \\
+a            &=  \dfrac{R - B}{h - B} \\
+\end{align*}
+$$
 
-(R1 - B1)/(h - B1) &= (R2 - B2)/(h - B2) \\
-(R1 - B1)*(h - B2) &= (R2 - B2)*(h - B1) \\
-R1h - B1h - R1B2 + B1B2 &= R2h - B2h - R2B1 + B1B2 \\
-R1h - B1h - R1B2 &= R2h - B2h - R2B1 \\
-(R1 - B1)h - R1B2 &= (R2 - B2)h - R2B1 \\
-(R1 - B1)h - (R2 - B2)h &= R1B2 - R2B1 \\
-(R1 - B1 - R2 + B2)h &= (R1B2 - R2B1) \\
-h &= (R1B2 - R2B1) / ((R1 - B1) + (R2 - B2))
-\end{align*}$$
+$$
+\begin{align*}
+a &= \dfrac{R_{1} - B_{1}}{h - B_{1}} \\
+a &= \dfrac{R_{2} - B_{2}}{h - B_{2}} \\
+\end{align*}
+$$
+
+$$
+\begin{align*}
+{R_{1} - B_{1}}{h - B_{1}} &= \dfrac{R_{2} - B_{2}}{h - B_{2}} \\
+(R_{1} - B_{1})*(h - B_{2}) &= (R_{2} - B_{2})*(h - B_{1}) \\
+R_{1}h - B_{1}h - R_{1}B_{2} + B_{1}B_{2} &= R_{2}h - B_{2}h - R_{2}B_{1} + B_{1}B_{2} \\
+R_{1}h - B_{1}h - R_{1}B_{2} &= R_{2}h - B_{2}h - R_{2}B_{1} \\
+(R_{1} - B_{1})h - R_{1}B_{2} &= (R_{2} - B_{2})h - R_{2}B_{1} \\
+(R_{1} - B_{1})h - (R_{2} - B_{2})h &= R_{1}B_{2} - R_{2}B_{1} \\
+(R_{1} - B_{1} - R_{2} + B_{2})h &= (R_{1}B_{2} - R_{2}B_{1}) \\
+h &= \dfrac{R_{1}B_{2} - R_{2}B_{1}}{(R_{1} - B_{1}) + (R_{2} - B_{2})}
+\end{align*}
+$$

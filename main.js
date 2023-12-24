@@ -83,5 +83,5 @@ if (document.readyState === "complete") {
     // attaching an event handler.
     init();
 } else {
-    window.addEventListener("load", init, false);
+    window.addEventListener("load", init, {once: true});
 }
