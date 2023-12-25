@@ -10,9 +10,12 @@ every pixel of an overlay.
      With this program, I have calculated the color, which is ${\color{#0066CC}\blacksquare}$
      `#0066CC46` (i.e. with an Alpha of $70$)!
 
-   Example:<br>![Example - Selecting something on a Windows 10 Desktop](../media/example1%20markers.svg)
+   Example:<br>
+   <img alt="Example - Selecting something on a Windows 10 Desktop" src="./example1_markers.svg">
 
 2. Selecting something in an Office product, like PowerPoint. (*TODO*)
+
+3. Removing video editor watermarks.
 
 # Variables
 These are the **inputs**:
