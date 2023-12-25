@@ -106,7 +106,7 @@ export function calculateHighlight(color1_ori_hex, color1_sel_hex, color2_ori_he
     const R2subB2 = arraysSub(R2, B2);
     const result = arraysDiv(
         arraysSub(arraysMul(R1, B2), arraysMul(R2, B1)),
-        arraysAdd(R1subB1, R2subB2)
+        arraysSub(R1subB1, R2subB2)
     );
 
     const alphaFrom1 = arraysDiv(R1subB1, arraysSub(result, B1)).map((c) => parseInt(c * 255));
