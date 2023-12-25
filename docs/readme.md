@@ -11,7 +11,7 @@ every pixel of an overlay.
      `#0066CC46` (i.e. with an Alpha of $70$)!
 
    Example:<br>
-   <img alt="Example - Selecting something on a Windows 10 Desktop" src="./example1_markers.svg">
+   ![Example - Selecting something on a Windows 10 Desktop](./example1_markers.svg)
 
 2. Selecting something in an Office product, like PowerPoint. (*TODO*)
 

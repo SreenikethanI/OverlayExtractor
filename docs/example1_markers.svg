@@ -9,7 +9,7 @@
    id="svg1"
    xml:space="preserve"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
-   sodipodi:docname="example1 markers.svg"
+   sodipodi:docname="example1_markers.svg"
    inkscape:export-filename="example1 markers.png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
@@ -21,7 +21,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:dc="http://purl.org/dc/elements/1.1/"><title
-     id="title5">Example 1</title><sodipodi:namedview
+     id="title5">Example 1 (with markers)</title><sodipodi:namedview
      id="namedview1"
      pagecolor="#505050"
      bordercolor="#ffffff"
@@ -36,8 +36,8 @@
      showgrid="true"
      showguides="false"
      inkscape:zoom="5.6568543"
-     inkscape:cx="92.984542"
-     inkscape:cy="45.166446"
+     inkscape:cx="92.984541"
+     inkscape:cy="45.166445"
      inkscape:window-width="1920"
      inkscape:window-height="1027"
      inkscape:window-x="-8"
@@ -60,33 +60,7 @@
        gridanglez="30"
        visible="true"
        enabled="false" /></sodipodi:namedview><defs
-     id="defs1"><inkscape:path-effect
-       effect="powerstroke"
-       id="path-effect8"
-       is_visible="true"
-       lpeversion="1.3"
-       scale_width="1"
-       interpolator_type="CentripetalCatmullRom"
-       interpolator_beta="0.75"
-       start_linecap_type="round"
-       end_linecap_type="round"
-       offset_points="8.6501638,5.3033009"
-       linejoin_type="spiro"
-       miter_limit="4"
-       not_jump="true"
-       sort_points="true"
-       message="&lt;b&gt;Ctrl + click&lt;/b&gt; on existing node and move it" /><inkscape:path-effect
-       effect="simplify"
-       id="path-effect7"
-       is_visible="true"
-       lpeversion="1.3"
-       threshold="0.012"
-       steps="1"
-       smooth_angles="0"
-       helper_size="0"
-       simplify_individual_paths="false"
-       simplify_just_coalesce="false"
-       step="1" /><filter
+     id="defs1"><filter
        style="color-interpolation-filters:sRGB"
        inkscape:label="Drop Shadow"
        id="filter43"
@@ -130,7 +104,9 @@
      inkscape:label="Reference"
      sodipodi:insensitive="true" /><metadata
      id="metadata5"><rdf:RDF><cc:Work
-         rdf:about=""><dc:title>Example 1</dc:title></cc:Work></rdf:RDF></metadata><g
+         rdf:about=""><dc:title>Example 1 (with markers)</dc:title><dc:creator><cc:Agent><dc:title>Sreenikethan I</dc:title></cc:Agent></dc:creator><dc:description>A screenshot-like diagram of a file &quot;Test.png&quot; in a Windows 10 Desktop, which is partially selected by a selection rectangle.
+The file's square icon has two halves, one white and one black. The selection rectangle partially highlights the white and black rectangles.
+A diagram on the right side explains the Color Mixing processes, with red arrows indicating the colors involved.</dc:description><dc:contributor><cc:Agent><dc:title>Sreenikethan I</dc:title></cc:Agent></dc:contributor></cc:Work></rdf:RDF></metadata><g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="The main shit"

@@ -101,7 +101,8 @@
      inkscape:label="Reference"
      sodipodi:insensitive="true" /><metadata
      id="metadata5"><rdf:RDF><cc:Work
-         rdf:about=""><dc:title>Example 1</dc:title></cc:Work></rdf:RDF></metadata><g
+         rdf:about=""><dc:title>Example 1</dc:title><dc:description>A screenshot-like diagram of a file &quot;Test.png&quot; in a Windows 10 Desktop, which is partially selected by a selection rectangle.
+The file's square icon has two halves, one white and one black. The selection rectangle partially highlights the white and black rectangles.</dc:description><dc:creator><cc:Agent><dc:title>Sreenikethan I</dc:title></cc:Agent></dc:creator></cc:Work></rdf:RDF></metadata><g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="The main shit"
